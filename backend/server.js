@@ -21,6 +21,7 @@ app.use('/api/workouts', workoutRoutes)
 app.use('/api/users', userRoutes)
 
 
+
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         app.listen(PORT, ()=>{
