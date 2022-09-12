@@ -14,7 +14,14 @@ const Navbar = () => {
     <header>
       <div className="container">
         <Link to="/">
-          <h1>Workout Buddy</h1>
+          {/* <h1>Workout Buddy</h1> */}
+        
+            <h2 class="title">
+              <span class="title-word title-word-1">TOP </span>
+              <span class="title-word title-word-2">G </span>
+              <span class="title-word title-word-3">FITNESS</span>
+            </h2>
+     
         </Link>
         <nav>
           {user && (
